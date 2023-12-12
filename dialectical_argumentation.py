@@ -1,5 +1,4 @@
 from networkx.drawing.nx_pydot import graphviz_layout
-from supports import *
 from pysat.examples.lbx import LBX
 from pysat.solvers import Solver
 from pysat.examples.hitman import Hitman
@@ -8,6 +7,8 @@ from pysat.examples.musx import MUSX
 from collections import defaultdict
 from copy import deepcopy
 import itertools
+import networkx as nx
+from algorithms import *
 
 '----------------------------------------------------------------------------------------------------------------------'
 
